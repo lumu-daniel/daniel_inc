@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(102, 102, 102);
+  }
+  
+  h1 {
+    color: rgb(0, 107, 128);
+    font-size: bold;
+    font-family:monospace;
+    margin-left: 20px;
+  }
