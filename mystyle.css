@@ -5,8 +5,8 @@ body {
   p {
     color: aliceblue;
     font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 100px;
-    margin-top: 50px;
     letter-spacing: normal;
     word-spacing: normal;
   }
