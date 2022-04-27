@@ -47,3 +47,7 @@ body {
     text-decoration: underline;
     color: rgb(199, 223, 119);
   }
+
+  .dark_strong{
+    font-weight: bolder;
+  }
