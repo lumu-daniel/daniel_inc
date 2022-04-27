@@ -1,6 +1,19 @@
 body {
     background-color: rgb(102, 102, 102);
   }
+
+  p {
+    color: aliceblue;
+    font-size: medium;
+    margin-left: 100px;
+    margin-top: 50px;
+    letter-spacing: normal;
+    word-spacing: normal;
+  }
+
+  .yellow_strong{
+      color: yellow;
+  }
   
   h1 {
     color: rgb(146, 171, 176);
