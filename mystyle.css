@@ -22,3 +22,8 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 100px;
   }
+
+  h3 {
+    color: rgb(146, 171, 176);
+    font-weight: bolder;
+  }
