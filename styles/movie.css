@@ -1,0 +1,135 @@
+*{
+    background-image: url(/images/background.png);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+p.reviewer{
+    padding: 10px;
+    text-align: left;
+}
+
+h1.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    text-shadow: 2px 2px #625f5f;
+}
+
+div.top_banner{
+    padding-top: 1%;
+    width: calc(100% - 170px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.centering{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.container{
+    border: 5px solid grey;
+    box-sizing: border-box; 
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    padding: 0.25%;
+    width: 60%;
+    overflow:hidden;
+}
+
+div.right_section{
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    float: right;
+    margin-top: -0.5%;
+    margin-right   : -0.5%;
+    background-color: rgb(122, 167, 122);
+}
+
+img.right_section_img{
+    width: 170px;
+}
+
+dt{
+    font-weight: bolder;
+}
+
+dd{
+    width: 140px;
+    float: right;
+    clear: left;
+    text-align: start;
+}
+
+.left_banner{
+    margin-top: -0.5%;
+    margin-left   : -0.5%;
+    position: inherit;
+    float: left;
+}
+
+h1.ratings{
+    margin-top:-0.5%;
+    color: red;
+    font-size: 80px;
+    float: right;
+    margin-left: 15px;
+}
+
+p.comment{
+    padding: 10px;
+    border:2px solid rgb(96, 96, 96);
+    border-radius: 10px;
+    background-color: rgb(251, 241, 131);
+    font-weight: bold;
+    overflow:hidden;
+}
+
+div.inner_container{
+    margin-top: 20px;
+    width: calc(100% - 170px);
+    height: auto;
+    display: flex;
+
+}
+
+div.left_inner_section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    overflow:hidden;
+}
+
+div.right_inner_section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    overflow:hidden;
+}
+
+div.badges{
+    float: right;
+    height: 100%;
+    align-self: flex-end;
+}
+
+p.pagination{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(122, 167, 122);
+}
+
+div.lower_section{
+    display: flex;
+}

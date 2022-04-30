@@ -29,6 +29,7 @@ body {
 
   .comment{
       background-color: yellow;
+      margin-left: 2%;
       font-style: italic;
       font-weight: lighter;
   }
@@ -37,7 +38,7 @@ body {
       width: 18%;
       text-align: end;
       font-weight: lighter;
-      font-family: 'Times New Roman', Times, serif;
+      font-family:'Courier New', Courier, monospace;
       padding-bottom: 1%;
   }
 
