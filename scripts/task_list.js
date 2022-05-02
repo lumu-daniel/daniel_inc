@@ -14,5 +14,5 @@ function clearTasks(){
     str = [];
     document.getElementById("task_text").style.display = str;
     localStorage.clear;
-    document.getElementById("area_1").value = "";
+    document.getElementById("area_1").value = "";   
 }
