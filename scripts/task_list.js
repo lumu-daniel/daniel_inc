@@ -5,8 +5,8 @@ function addTask(){
     if(x!=null){
         str.push(x);
     }
-
-    document.getElementById("task_text").style.display = str;
+    localStorage.setItem("Data",str.join("\n"))
+    document.getElementById("task_text").style.display = localStorage.getItem("Data");
 }
 
 function clearTasks(){
