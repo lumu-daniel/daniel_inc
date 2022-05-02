@@ -5,6 +5,7 @@
 h1{
     color: black;
     font-weight: bolder;
+    align-self: flex-end;
 }
 
 div.header{
