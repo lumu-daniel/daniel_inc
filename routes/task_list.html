@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/task_list.css">
+    <title>Task List</title>
+    <script src="/scripts/task_list.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <div class="inner_sections">
+            <div class="left_section">
+                <form action="">
+                    <label class="task">Task</label><br/>
+                    <input type="text", id="task_text">
+                    <input class="btn" type="button", value="Add Task", onclick="addTask()"/><br/>
+                    <input class="btn" type="button", value="Clear Tasks", onclick="clearTasks()"/>
+                </form>
+            </div>
+            <div class="right_section">
+                <label>Task List</label><br/><br/>
+                <textarea name="Area" id="area_1" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

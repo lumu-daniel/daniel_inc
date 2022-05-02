@@ -1,0 +1,38 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: blue;
+    font-weight: bolder;
+}
+
+#task_text{
+    margin: 10px;
+    width: 200px;
+}
+
+label.task{
+    margin: 10px;
+}
+
+div.container{
+    border: 5px solid red;
+    padding: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    width: 200px;
+    margin: 10px;
+}
+
+div.inner_sections{
+    display: flex;
+}
+
+div.left_section{
+    width: 300px;
+}
