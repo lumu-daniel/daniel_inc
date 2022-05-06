@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #CCCCFF;
+}
+
+h1{
+    color: black;
+    size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+fieldset{
+    width: fit-content;
+    margin: 10px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.btns_container{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+}
+
+#anime_area{
+    height: 400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.badges{
+    float: right;
+}
+
+.clicked{
+    opacity: 0.5;
+}
+
+.Tiny{
+    font-size: 7pt;
+}
+
+.Small{
+    font-size: 10pt;
+}
+
+.Medium{
+    font-size: 12pt;
+}
+
+.Large{
+    font-size: 16pt;
+}
+
+.ExtraLarge{
+    font-size: 24pt;
+}
+
+.xxl{
+    font-size: 32pt;
+}
