@@ -20,7 +20,24 @@ $(li.item-a).prev().css("background-color","blue");<br/><br/><br/>
 3. Write jQuery code to select the element that comes immediately before item three and change its<br/>
 background color to blue.<br/><br/>
 Ans:<br/>
-    $("li.third-item").prev().css("background-color","blue");
+    $("li.third-item").prev().css("background-color","blue");<br/><br/><br/>
+
+ 4. Let us one additional requirement for the "Go Vegetarian" button of the Webville Eatery Menu<br/>
+described in Chapter 4 of Head First jQuery: "Turkey" in the ingredient list of any entree is replaced by<br/>
+"Mashed Potatoes" in the vegetarian version. You may assume there is a class "turkey" that identifies<br/>
+these items in the list. Describe the changes to the Javascript (jQuery) code to implement this new<br/>
+requirement.<br/><br/>
+Ans:<br/>
+    To go vegeterian:<br/>
+    $(".turkey").repalceWith("<li class='mashed'>Mashed Potatoes</li>");<br/><br/>
+    To restore:<br/>
+    $(".mashed").repalceWith(<li class="turkey">Turkey</li>);<br/><br/><br/>
+
+    5. Write Javascript (jQuery) code to change the color of the parent and grandparent list items of the span<br/>
+    of text ("some text") in the following to green.<br/><br/>
+    Ans:<br/>
+    $("span").parent().css({"color":"green"});<br/>
+    $("span").parent().parent().css({"color":"green"});
     </p>
 </body>
 </html>
