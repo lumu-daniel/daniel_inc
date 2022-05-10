@@ -1,0 +1,22 @@
+{
+  "name": "daniel_inc",
+  "version": "1.0.0",
+  "description": "Create node server repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumu-daniel/daniel_inc.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Daniel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lumu-daniel/daniel_inc/issues"
+  },
+  "homepage": "https://github.com/lumu-daniel/daniel_inc#readme"
+}
